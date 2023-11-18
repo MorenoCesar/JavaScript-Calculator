@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+.main-container{
+    background-color: rgb(247, 247, 7);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+}
+
+.main-container .inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container h1{
+    margin-bottom: 20px;
+}
+
+#input, #result{
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-style: none;
+    padding: 10px;
+}
+
+.main-container #result{
+    text-align: end;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.main-container .buttons button{
+    font-size: 20px;
+    width: 60px;
+    height: 30px;
+}
+
+.main-container .equal-button button{
+    margin-top: 15px;
+    font-size: 20px;
+    width: 60px;
+    height: 30px;
+}
+
+.main-container .operators button{
+    width: 60px;
+    height: 30px;
+    margin-top: 20px;
+}
